@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    background-color: cadetblue;
+}
+@media only print {
+    h4{
+        background-color: blue;
+        font-size: 40px;
+        border: 2px solid green;
+        border-radius: 10px;
+
+    }
+}
